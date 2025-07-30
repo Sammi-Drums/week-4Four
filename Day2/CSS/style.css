@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient( #042b33, #0a0a0a);
+  
+}
+
+.container {
+    display: flex;
+    width: 60%;
+    border-radius: 15px;
+    overflow: hidden;
+    /* box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25); */
+    background-color: white;
+    margin: 50px auto;
+}
+.image-card{
+    width: 50%;
+    background-image: url('../Images/bg_img.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.overlay-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+    background-color: #00000065;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.overlay-text h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.overlay-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+.form-card {
+  
+  padding: 40px;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-card h2 {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.terms {
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.main-btn,
+.google-btn,
+.apple-btn {
+  padding: 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.main-btn {
+  background-color: #000;
+  color: white;
+}
+
+.google-btn {
+  background-color: #f1f1f1;
+}
+
+.apple-btn {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.divider {
+  text-align: center;
+  margin: 10px 0;
+  color: #aaa;
+}
