@@ -15,7 +15,6 @@ body {
     width: 60%;
     border-radius: 15px;
     overflow: hidden;
-    /* box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25); */
     background-color: white;
     margin: 50px auto;
 }
@@ -112,8 +111,8 @@ input[type="password"] {
   color: white;
 }
 
-.divider {
-  text-align: center;
-  margin: 10px 0;
-  color: #aaa;
+.divider{
+    display: flex;
+    width: 100%;
+    font-size: 18px;
 }

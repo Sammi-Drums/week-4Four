@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+.contact-card{
+    display: flex;
+    background-color: grey;
+    padding: 100px;
+    width: 70%;
+    margin: 100px auto;
+}
+.form-container{
+    width: 50%;
+    border: 1px solid black;
+    background-color: white;
+    padding: 15px 60px;
+}
+.register{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+.form-title h2{
+    margin: 5px 0;
+    font-size: 25px;
+}
+.form-title p{
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+form p{
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+form .para-btm p{
+    text-align: center;
+}
+form a{
+    text-decoration: none;
+    text-align: right;
+    margin: 15px 0;
+    color: black;
+}
+form button{
+    padding: 15px;
+    margin: 30px 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgba(0, 0, 255, 0.616);
+    color: white;
+    border: 0;
+}
+.form-input{
+    margin: 10px 0;
+}
+.form-input input{
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: rgba(128, 128, 128, 0.63);
+    color: black;
+    border: 0;
+    width: 100%;
+}
+hr{
+    margin: 20px 0;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a{
+    margin: 10px;
+}
+/* The image section */
+.contact-img{
+    width: 50%;
+    background: url(../Images/bg_img.PNG);
+}
+.img-overlay{
+    background-color: rgba(0, 0, 0, 0.445);
+    width: 100%;
+    height: 100%;
+}
+.img-content{
+    padding-top: 95%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-head{
+    display: flex;
+}
+.img-head hr{
+    flex: 5%;
+    margin-right: 5px;
+}
+.img-head h1{
+    flex: 95%;
+    color: white;
+}
+
+.img-para p{
+    color: white;
+    margin-left: 30px;
+}
